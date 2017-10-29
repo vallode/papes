@@ -1,0 +1,28 @@
+doctype html
+head
+	title='Papes'
+	meta(name='viewport' content='width=device-width, initial-scale=1')
+	link(rel='icon' type='image/png' href='images/favicon.png')
+	link(rel='stylesheet' type='text/css' href='css/style.css')
+body
+	-
+		var images = [
+			'/images/testpapes/0.jpg',
+			'/images/testpapes/1.jpg',
+			'/images/testpapes/2.jpg',
+			'/images/testpapes/3.jpg',
+			'/images/testpapes/4.jpg',
+			'/images/testpapes/5.jpg',
+			'/images/testpapes/6.jpg',
+			'/images/testpapes/7.jpg',
+			'/images/testpapes/8.jpg',
+			'/images/testpapes/9.jpg',
+		]
+	include includes/header.pug
+	div.wrapper
+		each image in images
+			div.image
+				a(href=image download)
+					img(src=image)
+	include includes/footer.pug
+script(src='scripts/main.js')

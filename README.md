@@ -14,8 +14,7 @@ A curated list of wallpapers, where function and form come together
 
 * Pug
 * SCSS
-* ???
 
-`git clone https://github.com/vallode/papes papes`
+`git clone https://github.com/vallode/papes`
 
 and off you go
