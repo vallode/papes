@@ -1,7 +1,6 @@
-docs/css/style.css
-docs/css/style.css.map
-docs/css/.sass-cache
-docs/index.html
-docs/node_modules/
-docs/package-locks.json
+css/style.css
+css/style.css.map
+css/.sass-cache
+node_modules/
+package-locks.json
 .idea/
